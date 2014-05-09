@@ -35,7 +35,7 @@ class ContactDirectory
 
     def report(list)
       if list.empty?
-        [" ", "Report not found", "Can you review the spelling or command list?", " "]
+        [" ", "Empty Report", " "]
       else
         report = [" "]
         report << tab("ID","Last Name", "First Name", "Age", "Github", "Graduation")

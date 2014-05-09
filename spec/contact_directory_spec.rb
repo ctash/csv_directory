@@ -1,5 +1,6 @@
 require 'pry'
-require_relative 'contact_directory.rb'
+# Make sure to navigate to spec folder and run rspec command
+require_relative '../models/contact_directory.rb'
 
 
 describe ContactDirectory do
