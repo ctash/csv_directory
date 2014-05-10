@@ -1,4 +1,15 @@
-Option 1 ­ CSV Load, Sort, Report
+
+Instructions: Install
+---------
+
+1. Clone Repo and 'bundle install' in root directory 
+  a. type a to view all contacts
+  b. type q to quit
+  c. type last name to view all contacts with last name
+2. run program with 'ruby backupify_challenge.rb'
+3. run tests in spec directory with 'rspec .'
+
+Instructions: CSV Load, Sort, Report
 ---------
 Use the language of your choice to write a program that will read in data from a CSV file and then support 
 
