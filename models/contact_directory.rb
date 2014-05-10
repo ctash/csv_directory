@@ -15,7 +15,7 @@ class ContactDirectory
     if @command.downcase == 'a'
       report(sort_by_age)
     else
-       report(filtered_by_last_name)
+      report(filtered_by_last_name)
     end
   end
 
@@ -41,7 +41,7 @@ class ContactDirectory
         report << tab("ID","Last Name", "First Name", "Age", "Github", "Graduation")
         report << tab("--","---------", "----------", "---", "------", "----------")
         list.each do |p|
-             report << tab(p.id, p.last_name, p.first_name, p.age, p.github, p.graduation_date)
+          report << tab(p.id, p.last_name, p.first_name, p.age, p.github, p.graduation_date)
         end
         report << " "
       end
@@ -54,7 +54,6 @@ class ContactDirectory
       end
       string
     end
-
 
     def load_from_csv(file_name)
       people = []
