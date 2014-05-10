@@ -3,10 +3,10 @@ Instructions: Install
 ---------
 
 1. Clone Repo and 'bundle install' in root directory 
+2. run program with 'ruby backupify_challenge.rb'
   1. type a to view all contacts
   2. type q to quit
   3. type last name to view all contacts with last name
-2. run program with 'ruby backupify_challenge.rb'
 3. run tests in spec directory with 'rspec .'
 
 Instructions: CSV Load, Sort, Report
